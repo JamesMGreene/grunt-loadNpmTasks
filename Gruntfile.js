@@ -29,4 +29,7 @@ module.exports = function(grunt) {
   // Default task.
   grunt.registerTask('default', ['jshint', 'nodeunit']);
 
+  // Task for Travis CI.
+  grunt.registerTask('travis', ['jshint', 'nodeunit']);
+
 };
