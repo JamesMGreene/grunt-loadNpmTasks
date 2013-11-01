@@ -1,7 +1,7 @@
 {
-  "name": "grunt-loadNpmTasks",
+  "name": "grunt-loadnpmtasks",
   "description": "A Node module (not a Grunt task itself) to help in loading NPM-based tasks without requiring a \"package.json\" file next to every Gruntfile. To be used as an alternative to `grunt.loadNpmTasks`/`grunt.task.loadNpmTasks`.",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "homepage": "https://github.com/JamesMGreene/grunt-loadNpmTasks",
   "author": {
     "name": "James M. Greene",
