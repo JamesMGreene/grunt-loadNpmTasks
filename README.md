@@ -4,33 +4,25 @@ A Node module (not a Grunt task itself) to help in loading NPM-based tasks witho
 To be used as an alternative to `grunt.loadNpmTasks`/`grunt.task.loadNpmTasks`.
 
 ## Getting Started
-Install the module with: `npm install grunt-loadNpmTasks`
+Install the module with: `npm install grunt-loadnpmtasks`
 
 Within your Gruntfile (or Node.js code, if you are using Grunt programmatically), you can then do:
 
 ```js
-var loader = require('grunt-loadNpmTasks')(grunt);  // Where `grunt` is an instance of Grunt
+var loader = require('grunt-loadnpmtasks')(grunt);  // Where `grunt` is an instance of Grunt
 loader.loadNpmTasks('grunt-contrib-jshint');
 ```
 
 Alternatively, you can have `grunt-loadNpmTasks` actually override Grunt's `loadNpmTasks` method:
 
 ```js
-require('grunt-loadNpmTasks').extend(grunt);  // Where `grunt` is an instance of Grunt
+require('grunt-loadnpmtasks').extend(grunt);  // Where `grunt` is an instance of Grunt
 grunt.loadNpmTasks('grunt-contrib-jshint');
+grunt.task.loadNpmTasks('grunt-contrib-uglify');
 ```
-
-## Documentation
-_(Coming soon)_
-
-## Examples
-_(Coming soon)_
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
-
-## Release History
-_(Nothing yet)_
 
 ## License
 Copyright (c) 2013 James M. Greene  
