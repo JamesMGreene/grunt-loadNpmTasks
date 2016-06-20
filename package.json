@@ -1,7 +1,7 @@
 {
   "name": "grunt-loadnpmtasks",
   "description": "A Node module (not a Grunt task itself) to help in loading NPM-based tasks without requiring a \"package.json\" file next to every Gruntfile. To be used as an alternative to `grunt.loadNpmTasks`/`grunt.task.loadNpmTasks` within large, hierarchical codebases.",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "homepage": "https://github.com/JamesMGreene/grunt-loadNpmTasks",
   "author": {
     "name": "James M. Greene",
@@ -15,29 +15,24 @@
   "bugs": {
     "url": "https://github.com/JamesMGreene/grunt-loadNpmTasks/issues"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/JamesMGreene/grunt-loadNpmTasks/blob/master/LICENSE-MIT"
-    }
-  ],
+  "license": "MIT",
   "main": "lib/grunt-loadNpmTasks",
   "engines": {
-    "node": ">= 0.8.0"
+    "node": ">=0.10.0"
   },
   "scripts": {
     "test": "grunt travis --verbose"
   },
   "peerDependencies": {
-    "grunt": "0.4.x"
+    "grunt": ">=0.4.0"
   },
   "dependencies": {},
   "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-contrib-jshint": "~0.7.1",
-    "grunt-contrib-nodeunit": "~0.2.2",
-    "grunt-contrib-watch": "~0.2.0",
-    "nodeunit": "~0.8.1"
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-nodeunit": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "nodeunit": "^0.9.1"
   },
   "keywords": [
     "gruntplugin",
